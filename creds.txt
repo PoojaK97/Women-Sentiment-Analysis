@@ -1,0 +1,64 @@
+ASSISTANT_APIKEY=n4rKaeaGqhtZyUrfV14uZpTNXzVGgpCz1zkCZqGr5S8U
+ASSISTANT_IAM_APIKEY=n4rKaeaGqhtZyUrfV14uZpTNXzVGgpCz1zkCZqGr5S8U
+ASSISTANT_URL=https://gateway-lon.watsonplatform.net/assistant/api
+ASSISTANT_AUTH_TYPE=iam
+
+API Details
+Assistant Details
+Assistant Name:
+ana
+
+Assistant ID:
+9cfa9edb-b2ca-462f-97d6-6bb7cf0625f6
+
+Assistant URL:
+https://gateway-lon.watsonplatform.net/assistant/api/v2/assistants/9cfa9edb-b2ca-462f-97d6-6bb7cf0625f6/sessions
+
+Service Credentials
+Credentials Name:
+Auto-generated service credentials
+
+Api Key:
+n4rKaeaGqhtZyUrfV14uZpTNXzVGgpCz1zkCZqGr5S8U
+
+Credentials Name:
+Auto-generated service credentials
+
+Api Key:
+9KTdt6jxx7ngNz4K3pm9x8AlJYowpssIJS3Wc6omYY2Z
+
+
+
+{
+  "apikey": "44JQcteNkQ3QoiaVzUYfLruCS3Yz3sngWa45jq2r5y1b",
+  "iam_apikey_description": "Auto-generated for key aaed3753-f79c-4f40-97a7-850ea63aecc6",
+  "iam_apikey_name": "Auto-generated service credentials",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/a66f3fe4b26d4c259c8b967c23a3454c::serviceid:ServiceId-3c8af0bd-ac72-45d8-b67d-4185e4d67bad",
+  "url": "https://gateway-lon.watsonplatform.net/speech-to-text/api"
+}
+
+
+{
+  "apikey": "2YgsJ-C7x-Fa9eBszBnn4TtxNjbjPfnCYx6m1Y06gUpa",
+  "iam_apikey_description": "Auto-generated for key a7559e17-8a46-48ab-a39a-3933d117fddb",
+  "iam_apikey_name": "Auto-generated service credentials",
+  "iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Manager",
+  "iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/a66f3fe4b26d4c259c8b967c23a3454c::serviceid:ServiceId-0bb68883-3ecd-4f72-a6ee-1c07ebbd6ea6",
+  "url": "https://gateway-lon.watsonplatform.net/text-to-speech/api"
+}
+
+
+
+ASSISTANT_APIKEY=n4rKaeaGqhtZyUrfV14uZpTNXzVGgpCz1zkCZqGr5S8U
+ASSISTANT_IAM_APIKEY=n4rKaeaGqhtZyUrfV14uZpTNXzVGgpCz1zkCZqGr5S8U
+ASSISTANT_URL=https://gateway-lon.watsonplatform.net/assistant/api
+ASSISTANT_AUTH_TYPE=iam
+
+
+
+
+
+
+
+
