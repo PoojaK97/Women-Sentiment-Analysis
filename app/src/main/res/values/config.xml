@@ -21,7 +21,7 @@
     <!-- The URL provided below is for DALLAS region/location -->
     <!-- If the STT service is created in another region/lpcation -->
     <!-- REPLACE the URL with STT URL provided in the service credentials -->
-    <string name="STT_url">https://stream.watsonplatform.net/speech-to-text/api</string>
+    <string name="STT_url">https://gateway-lon.watsonplatform.net/speech-to-text/api</string>
 
 
     <!--Watson Text To Speech(TTS) service credentials-->
@@ -31,6 +31,6 @@
     <!-- The URL provided below is for DALLAS region/location -->
     <!-- If the TTS service is created in another region/lpcation -->
     <!-- REPLACE the URL with TTS URL provided in the service credentials -->
-    <string name="TTS_url">https://stream.watsonplatform.net/text-to-speech/api</string>
+    <string name="TTS_url">https://gateway-lon.watsonplatform.net/text-to-speech/api</string>
 
 </resources>
