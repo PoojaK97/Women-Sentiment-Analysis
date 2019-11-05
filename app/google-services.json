@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "604929217043",
+    "firebase_url": "https://gojek-358cb.firebaseio.com",
+    "project_id": "gojek-358cb",
+    "storage_bucket": "gojek-358cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604929217043:android:c917593efa520fdd7765e6",
+        "android_client_info": {
+          "package_name": "com.example.vmac.chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604929217043-belasv3jvb4di9jalshurj86u2s8g46g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vmac.chatbot",
+            "certificate_hash": "5989d1d7d9848b5c5bdc1b33ef629aa662e1f415"
+          }
+        },
+        {
+          "client_id": "604929217043-j4e5jd8v8fgo4gtmog3ig4vgik6nh6kd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmwOkTG8aEqNjICoZOHie8ErqIWl24l7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604929217043-j4e5jd8v8fgo4gtmog3ig4vgik6nh6kd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
