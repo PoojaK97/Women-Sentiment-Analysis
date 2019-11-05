@@ -110,15 +110,6 @@ public class SignUp extends AppCompatActivity {
             return;
         }
 
-        final RadioGroup rgUserType = findViewById(R.id.user_type);
-        int SelectedID = rgUserType.getCheckedRadioButtonId();
-
-        if (findViewById(SelectedID)==null) {
-            Toast.makeText(getApplicationContext(), "User Type cannot be empty", Toast.LENGTH_SHORT).show();
-            return;
-        }
-
-
         progressDialog.setMessage("Signing up...");
         progressDialog.show();
 
@@ -129,25 +120,8 @@ public class SignUp extends AppCompatActivity {
                         progressDialog.dismiss();
                         if (task.isSuccessful()) {
                             Toast.makeText(SignUp.this, "Woo-hoo! Successfully registered", Toast.LENGTH_SHORT).show();
-
-                            final RadioGroup rgUserType = findViewById(R.id.user_type);
-                            int SelectedID = rgUserType.getCheckedRadioButtonId();
-                            RadioButton radioButton = findViewById(SelectedID);
-                            String Value = radioButton.getText().toString();
-                            if (Value.equals("Farmer")) {
-                                UserIsFarmer = true;
-                                startActivity(new Intent(SignUp.this,MainActivity.class));
-                                finish();
-
-                            }
-                            else {
-                                UserIsFarmer = false;
-                                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                                startActivityForResult(intent, 0);
-
-                            }
-
+                            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                            startActivity(intent);
                         } else {
                             if (task.getException()instanceof FirebaseAuthUserCollisionException){
                                 Toast.makeText(SignUp.this, "Email is already registered", Toast.LENGTH_SHORT).show();
