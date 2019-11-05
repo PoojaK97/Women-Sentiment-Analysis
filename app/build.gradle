@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 repositories {
     maven {
-        url  "https://dl.bintray.com/ibm-cloud-sdks/ibm-cloud-sdk-repo"
+        url "https://dl.bintray.com/ibm-cloud-sdks/ibm-cloud-sdk-repo"
     }
 }
 
@@ -43,7 +43,9 @@ dependencies {
     implementation 'com.android.support:design:26.0.0'
     implementation 'com.ibm.watson:assistant:8.0.0'
     implementation 'com.ibm.watson:text-to-speech:8.0.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
     implementation 'com.ibm.watson:speech-to-text:8.0.0'
     implementation 'com.ibm.watson.developer_cloud:android-sdk:0.5.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
 }
