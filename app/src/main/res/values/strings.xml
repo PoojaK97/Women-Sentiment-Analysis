@@ -1,4 +1,38 @@
 <resources>
     <string name="app_name">BotNaari</string>
     <string name="what_s_on_your_mind">Enter your query</string>
+    <string name="page_1_email_hint">Email</string>
+    <string name="page_1_login_btn_hint">LOGIN</string>
+    <string name="page_1_app_title">🅢🅜🅐🅡🅣 🅕🅐🅡🅜🅔🅡🅢  🅢🅜🅐🅡🅣 🅕🅐🅡🅜🅘🅝🅖</string>
+    <string name="page_1_password_hint">Password</string>
+    <string name="page_1_register">Register</string>
+    <string name="page_1_forgot_password">Forgot Password?</string>
+
+
+    <string name="page_2_heading">Sign Up</string>
+    <string name="page_2_already_registered">Already Registered?</string>
+    <string name="page_2_confirm_password">Confirm Your Password</string>
+    <string name="page_2_select">Select</string>
+    <string name="page_2_farmer">Farmer</string>
+    <string name="page_2_wholeseller">Wholeseller</string>
+    <string name="page_2_password">Enter Password</string>
+    <string name="page_2_email">Enter Email</string>
+    <string name="page_2_login">Click here to LOGIN</string>
+
+
+    <string name="page_3_heading">Forgot Password</string>
+    <string name="page_3_forgot_password">FORGOT PASSWORD</string>
+    <string name="page_3_email_hint">Registered Email</string>
+    <string name="page_3_reset">Reset Password</string>
+    <string name="page_3_login">Click here to LOGIN</string>
+    <string name="page_3_signup">Click here to SIGN UP</string>
+
+
+    <string name="page_4_heading">Enter Details</string>
+
+
+    <string name="page_5_heading">All Farmers</string>
+
+
+    <string name="page_6_heading">Farmer Profile</string>
 </resources>
