@@ -21,7 +21,7 @@ public class Registration extends AppCompatActivity {
         mnext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), Interests.class);
+                Intent intent = new Intent(getApplicationContext(), WorkDetails.class);
                 startActivity(intent);
             }
         });

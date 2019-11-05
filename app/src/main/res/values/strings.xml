@@ -35,4 +35,5 @@
 
 
     <string name="page_6_heading">Farmer Profile</string>
+    <string name="title_activity_landing">LandingActivity</string>
 </resources>

@@ -11,8 +11,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#EBDD9F"
-        tools:context=".GetFarmerDetails">
+        android:background="#EBDD9F">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,8 +24,9 @@
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="129dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginEnd="8dp"
@@ -35,86 +35,102 @@
                 android:text="Interests"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
-                android:textSize="22sp"
+                android:textSize="25sp"
                 android:textStyle="bold" />
 
             <CheckBox
                 android:id="@+id/tech"
-                android:layout_width="match_parent"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="60dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
+                android:gravity="center"
                 android:text="Technology" />
 
             <CheckBox
                 android:id="@+id/cook"
-                android:layout_width="match_parent"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
+                android:gravity="center"
                 android:text="Cooking" />
 
             <CheckBox
                 android:id="@+id/art"
-                android:layout_width="match_parent"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
+                android:gravity="center"
                 android:text="Art" />
 
             <CheckBox
                 android:id="@+id/hacks"
-                android:layout_width="match_parent"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
+                android:gravity="center"
                 android:text="Daily Hacks" />
 
             <CheckBox
                 android:id="@+id/politics"
-                android:layout_width="match_parent"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
+                android:gravity="center"
                 android:text="Politics" />
 
             <CheckBox
                 android:id="@+id/games"
-                android:layout_width="match_parent"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
+                android:gravity="center"
                 android:text="Games" />
 
             <CheckBox
                 android:id="@+id/health"
-                android:layout_width="match_parent"
+                android:layout_width="240dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
+                android:gravity="center"
                 android:text="Health" />
 
             <Button
                 android:id="@+id/submit"
-                android:layout_width="200dp"
+                android:layout_width="180dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="104dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="64dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
                 android:background="@color/colorPrimaryDark"
                 android:text="Done"
                 android:textColor="#fff"
